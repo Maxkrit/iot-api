@@ -1,0 +1,27 @@
+{
+  "name": "iot-lab-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxkrit/iot-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Maxkrit/iot-api/issues"
+  },
+  "homepage": "https://github.com/Maxkrit/iot-api#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "dotenv": "^17.2.0",
+    "drizzle-orm": "^0.44.3",
+    "express": "^5.1.0"
+  }
+}
