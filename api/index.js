@@ -1,7 +1,7 @@
 const express = require('express'); 
 const { drizzle } = require('drizzle-orm/better-sqlite3');
 const Database = require('better-sqlite3');
-const { students } = require('./drizzle/schema');
+const { students } = require('../drizzle/schema');
 const { eq } = require('drizzle-orm/sql');
 
 console.log('students:', students);
